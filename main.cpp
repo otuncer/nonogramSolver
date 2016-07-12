@@ -10,8 +10,8 @@ using namespace std;
 
 void argError(char* argv[]) {
 	cout << "Usage: " << argv[0] << " <input_file> [-i]" << endl;
-	cout << "    -i    Info flag. Print 'before' & 'after' line state" \
-			" for every iteration" << endl;
+	cout << "    -i    Info flag. Print which line is being processed and " \
+			"'before' & 'after' line state for every iteration." << endl;
 	exit(EXIT_FAILURE);
 }
 
