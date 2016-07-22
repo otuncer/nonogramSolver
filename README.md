@@ -3,7 +3,7 @@
 
 Usage:
 
-    ./nonogramSolver \<input_file\> [-i]
+    ./nonogramSolver <input_file> [-i]
 
         -i    Info flag. Print which line is being processed and 'before' & 'after' line state for every iteration.
 
