@@ -3,9 +3,9 @@
 
 Usage:
 
-./nonogramSolver \<input_file\> [-i]
+    ./nonogramSolver \<input_file\> [-i]
 
-    -i    Info flag. Print which line is being processed and 'before' & 'after' line state for every iteration.
+        -i    Info flag. Print which line is being processed and 'before' & 'after' line state for every iteration.
 
 Algorithm:
 Each *line* is independently processed, where a *line* corresponds to a row or a column. A line is processed in two steps. In the first step, the input blocks are pushed (1) to the beginning and (2) to the end of the line, and their intersection is taken complying with to the block indices as in the following example:
